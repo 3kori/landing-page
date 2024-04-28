@@ -22,6 +22,7 @@
     --fs-larger:2.25em;
     --fs-largest: 3em;
 
+    --fw-light: 200;
     --fw-bold: 700;
     --fw-extra-bold: bolder;
 
@@ -109,7 +110,7 @@ nav > ul {
     background-color: var(--btn-clr);
     color: var(--white-text-on-dark);
     font-size: var(--fs-normal);
-    width: 25%;
+    width: 7rem;
     border-radius: .5rem;
     padding: .5rem;
     text-align: center;
@@ -119,4 +120,116 @@ nav > ul {
     width: 100%;
     height: 100%;
     
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    margin-bottom: 5rem;
+}
+
+.info-title {
+    font-size: var(--fs-larger);
+    font-weight: var(--fw-extra-bold);
+    color: var(--dark-background);
+}
+
+.info-cards {
+    display: flex;
+    gap: 52px;
+    text-align: center;
+  }
+  
+.info {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+
+}
+
+.info-img {
+    border: 3px solid var(--btn-clr);
+    border-radius: .75rem;
+    width: 100px;
+    height: 100px;
+}
+
+.quote-container {
+    background-color: var(--grey-clr);
+    padding: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    max-width: 779px;
+
+}
+
+.quote-text {
+    color: var(--dark-background);
+    font-size: var(--fs-larger);
+    font-weight: var(--fw-light);
+    font-style: var(--f-style);
+}
+
+.quote-person {
+    color: var(--dark-background);
+    font-size: var(--fs-normal);
+    text-align: right;
+    font-weight: 700;
+}
+
+.cta-area {
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cta-container {
+    background-color: var(--btn-clr);
+    width: 900px;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .25rem;
+}
+
+.cta-desc > h2 {
+    color: var(--white-text-on-dark);
+    font-size: var(--fs-large);
+}
+
+.cta-desc > p {
+    color: var(--grey-clr);
+}
+
+.cta-container > a {
+    color: var(--white-text-on-dark);
+    border: 2px solid var(--white-text-on-dark);
+    font-size: var(--fs-normal);
+    width: 7rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--dark-background);
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer > p {
+    color: var(--grey-clr);
+    font-size: var(--fs-normal);
 }
