@@ -1,0 +1,72 @@
+/*  darkbckcolor(hero&footer):#1F2937
+    HeroMaintxt:48px extrabold #F9FAF8
+    herosectxt,header link txt: 18px #E5E7EB
+    header logo txt: 24px #F9FAF8
+    buttonclr, call to action bck clr: #3882F6
+    info header text: 36px extrabold #1F2937
+    quote section backclr: #E5E7EB
+    quotetxt: 36px light italic #1F2937
+
+*/
+
+:root {
+    --dark-background: #1F2937;
+    --white-text-on-dark: #F9FAF8;
+    --grey-clr: #E5E7EB;
+    --btn-clr: #3882F6;
+    
+    --ff: "Roboto", sans-serif;
+
+    --fs-normal: 1.125em;
+    --fs-large: 1.5em;
+    --fs-larger:2.25em;
+    --fs-largest: 3em;
+
+    --fw-bold: 700;
+    --fw-extra-bold: bolder;
+
+    --f-style: italic;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff);
+}
+
+img {
+    display:block;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: var(--dark-background);
+    padding: 0.75rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    color: var(--white-text-on-dark);
+    font-size: var(--fs-large);
+    font-weight: var(--fw-bold);
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-links {
+    font-size: var(--fs-normal);
+    color: var(--grey-clr);
+}
